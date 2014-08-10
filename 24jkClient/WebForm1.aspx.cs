@@ -71,7 +71,7 @@ namespace _24jkClient
             }
             else
             {
-                Label1.Text = "sth isn't workin' son!";
+                Label1.Text = "sth isn't workin' son! :(";
             }
 
         }
