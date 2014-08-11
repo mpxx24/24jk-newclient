@@ -33,7 +33,6 @@ namespace _24jkClient
                             FileUpload1.PostedFile.ContentLength + " \n" +
                             "Content type: " +
                             FileUpload1.PostedFile.ContentType;
-
                 }
                 catch (Exception ex)
                 {
