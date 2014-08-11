@@ -74,5 +74,21 @@ namespace _24jkClient
             }
 
         }
+
+        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var selectedFile = ListBox1.SelectedItem.Value;
+            Image1.ImageAlign = ImageAlign.Right;
+            Image1.ImageUrl = ServerPath + selectedFile;
+            
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            var selectedFile = ListBox1.SelectedItem.Value;
+            Image1.ImageAlign = ImageAlign.Right;
+            Image1.ImageUrl = ServerPath + selectedFile;
+        }
+       
     }
 }

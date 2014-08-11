@@ -12,18 +12,22 @@
         
         <asp:FileUpload ID="FileUpload1" runat="server" />
     
-        <asp:Image ID="Image1" runat="server" />
         <br />
         <asp:Label ID="Label1" runat="server"></asp:Label>
         <br/>
         <asp:Button ID="Button1" runat="server" Text="to the DB!" OnClick="Button1_Click" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
+        
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="show me dem files!" />
         <br />
         <br />
-        <asp:ListBox ID="ListBox1" runat="server" Height="169px" Width="195px"></asp:ListBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox1" runat="server" Height="169px" Width="195px" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
+
         <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="download this file" />
+            
+   
+        <asp:Image ID="Image1" runat="server" ImageUrl="" />
             
     </div>
     </form>
